@@ -3,15 +3,21 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Text, TextProps } from './index'
 
 export default {
-  title: 'Text',
+  title: 'Components/Text',
   component: Text,
   args: {
     children: 'Lorem ipsum dolor sit amet.',
+    size: 'md',
   },
   argTypes: {
     size: {
       options: ['sm', 'md', 'lg'],
       control: { type: 'inline-radio' },
+    },
+    asChild: {
+      table: {
+        disable: true
+      }
     }
   }
 } as Meta<TextProps>
@@ -33,7 +39,7 @@ export const CustomComponent: StoryObj<TextProps> = {
   args: {
     asChild: true,
     children: (
-      <p>Custom component</p>
+      <p>Text with 'P' tag</p>
     )
   },
   argTypes: {
@@ -41,6 +47,6 @@ export const CustomComponent: StoryObj<TextProps> = {
       table: {
         disable: true
       }
-    }
+    },
   }
 }
