@@ -22,11 +22,11 @@ function TextInputContainer({ children }: TextInputContainerProps) {
 
 TextInputContainer.displayName = 'TextInput.Container'
 
-function TextInput({ ...rest }: TextInputProps) {
+function TextInput({ ...props }: TextInputProps) {
   return (
     <input
       className='bg-transparent flex-1 text-gray-100 text-xs placeholder:text-gray-400 outline-none'
-      {...rest}
+      {...props}
     />
   )
 }
