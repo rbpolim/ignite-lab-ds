@@ -6,7 +6,7 @@ A design system built with Tailwindcss, Storybook and [Figma](https://www.figma.
 
 ## Demo
 
-[Storybook](https://rbpolim.github.io/ignite-lab-ds/)
+You can see the Design System demo visiting the [Storybook](https://rbpolim.github.io/ignite-lab-ds/)
 
 ## Tech Stack
 
@@ -15,5 +15,5 @@ A design system built with Tailwindcss, Storybook and [Figma](https://www.figma.
 ## Techs
 
 - [Vite](https://vitejs.dev/)
-- [TailWindCSS](https://tailwindcss.com/)
+- [TailwindCSS](https://tailwindcss.com/)
 - [Storybook](https://storybook.js.org/)
